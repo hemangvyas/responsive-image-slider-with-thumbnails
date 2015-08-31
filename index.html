@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Responsive Image Slider with Thumbnails</title>
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/jquery.cycle2.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style/thumbnailstyle.css">
+
+</head>
+
+<body>
+<!--Responsive Image slider with Thumbnail starts-->
+
+<!--cycle-slideshow-->
+<div class="cycle-slideshow" data-cycle-timeout="3000" data-cycle-fx="carousel"
+    data-cycle-timeout="1000"
+    data-cycle-carousel-visible=5
+	data-cycle-pager-template="<a class='thumb' href='#'><img src='{{src}}'></a>" data-cycle-pause-on-hover="true" >
+	<!--data-cycle-fx="carousel" data-cycle-carousel-visible="5" data-cycle-carousel-fluid="true"-->
+	<span class="cycle-pager"></span>
+	<span class="cycle-prev">&#9001;</span>
+	<span class="cycle-next">&#9002;</span>
+	
+	<img src="images/banner1.jpg" alt="Banner by Andy">
+	<img src="images/banner2.jpg" alt="Banner by Andy">
+	<img src="images/banner3.jpg" alt="Banner by Andy">
+	<img src="images/banner4.jpg" alt="Banner by Andy">
+	<img src="images/banner5.jpg" alt="Banner by Andy">
+	<img src="images/banner6.jpg" alt="Banner by Andy">
+	<img src="images/banner7.jpg" alt="Banner by Andy">
+	
+	
+</div>
+<!--cycle-slideshow-ends-->
+
+<!--Responsive Image slider with Thumbnail Ends-->
+</body>
+
+</html>
